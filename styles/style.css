@@ -135,34 +135,34 @@ header div img {
   gap: 20px;
 }
 
-.case-study-bg {
+.cat-image-bg {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/cycle-imag.jpg);
+    url(../images/cat-image.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.case-study-container {
+.cat-image-container {
   padding: 80px 16%;
   display: grid;
   grid-template-columns: 0.7fr 1.5fr;
   color: white;
 }
 
-.case-study-left {
+.cat-image-left {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.case-study-left p {
+.cat-image-left p {
   font-size: 1.3rem;
   font-weight: 400;
 }
 
-.case-study-left h3 {
+.cat-image-left h3 {
   font-size: 4rem;
   font-weight: 400;
 }
@@ -172,31 +172,31 @@ header div img {
   letter-spacing: 5px;
 }
 
-.line-container-case-study {
+.line-container-cat-image {
   display: flex;
   align-items: center;
   margin-top: 40px;
   gap: 10px;
 }
 
-.line-container-case-study .case-study-line {
+.line-container-cat-image .cat-image-line {
   height: 2px;
   width: 40px;
   background: white;
 }
 
-.case-study-right {
+.cat-image-right {
   display: flex;
   align-items: center;
   justify-content: center;
   max-width: 500px;
 }
 
-.case-study-right {
+.cat-image-right {
   display: flex;
   gap: 10px;
 }
-.case-study-right p {
+.cat-image-right p {
   font-size: 1.3rem;
 }
 
@@ -253,10 +253,20 @@ header div img {
 /* team member section */
 .team-member-bg {
   background: #2b2a54;
-  height: 100vh;
 }
-.image-container div img {
-  width: 100%;
+
+.team-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image-container img {
+  width: 70%;
+  height: 70%;
+  background-size: cover;
+  background-position: center;
   box-shadow:
     0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -268,14 +278,9 @@ header div img {
   display: grid;
   align-items: center;
   justify-content: center;
+  gap: 10px;
   grid-template-columns: repeat(2, 1fr);
   color: white;
-}
-
-.image-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .team-member-text {
@@ -404,25 +409,9 @@ header div img {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.review h1 {
-  color: #3d3d3d;
-  font-weight: 500;
-  font-size: 4rem;
-}
-
-.trust-section-quate {
-  max-width: 400px;
-}
-.trust-section-last-p {
-  font-size: 1.3rem;
-  margin-top: 80px;
-  text-align: justify;
-  margin-bottom: 20px;
-}
-
 /* footer  */
 footer {
-  background: #FAEDB7;
+  background: #faedb7;
 }
 
 .footer-container {
@@ -473,7 +462,7 @@ footer {
   color: #3d3d3d;
 }
 
-.contact-content ul{
+.contact-content ul {
   display: flex;
   flex-direction: column;
   gap: 10px;
