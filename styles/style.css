@@ -4,12 +4,12 @@
 }
 
 body {
-  background: #f5eadf;
+  background: #f9e8a263;
   font-family: "Jost", sans-serif;
 }
 
 .color {
-  background: #f1decf;
+  background: #95bdd759;
 }
 
 /*  */
@@ -21,7 +21,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 20px 8%;
-  background: #f1decf;
+  background: #f9e8a2a2;
 }
 
 nav .logo {
@@ -105,29 +105,29 @@ header div img {
   background: black;
 }
 
-/* agency-section */
-.agency-container {
+/* section */
+.petcare-container {
   padding: 80px 16%;
   display: grid;
   grid-template-columns: 0.7fr 1.5fr;
   justify-content: center;
 }
 
-.agency-left-side h2 {
+.petcare-left-side h2 {
   font-size: 2.5rem;
   color: #3e3e3e;
   margin-bottom: 2rem;
   font-weight: 400;
 }
 
-.agency-left-side a {
+.petcare-left-side a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 5px;
 }
 
-.agency-right-side {
+.petcare-right-side {
   color: #3e3e3e;
   font-size: 1.3rem;
   display: flex;
@@ -378,7 +378,7 @@ header div img {
 
 /* turst section */
 .trust-bg {
-  background: #d8c1af;
+  background: #78a4cb5e;
 }
 
 .trust-container {
@@ -422,7 +422,7 @@ header div img {
 
 /* footer  */
 footer {
-  background: #f5eadf;
+  background: #FAEDB7;
 }
 
 .footer-container {
