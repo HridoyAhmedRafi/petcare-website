@@ -98,10 +98,10 @@ header div img {
   text-transform: uppercase;
   font-weight: 300;
 }
-.line-container a:hover{
+.line-container a:hover {
   cursor: pointer;
-  color: #FDF6DB;
-  background: #3D3D3D;
+  color: #fdf6db;
+  background: #3d3d3d;
   border-radius: 10px;
 }
 
@@ -113,6 +113,7 @@ header div img {
 
 /* section */
 .petcare-container {
+  background: #fdf1dba8;
   padding: 80px 16%;
   display: grid;
   grid-template-columns: 0.7fr 1.5fr;
